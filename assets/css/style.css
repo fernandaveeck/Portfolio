@@ -78,3 +78,18 @@ nav a:hover {
     color: var(--purple-200);
     text-decoration: underline;
 }
+
+#about article {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#about img {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+#about p {
+    flex: 1;
+}
