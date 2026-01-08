@@ -98,3 +98,41 @@ nav a:hover {
     display: flex;
     justify-content: center;
 }
+
+footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: var(--white);
+    background-color: var(--purple-500);
+    font-weight: bold;
+    text-align: center;
+}
+
+footer section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+footer img {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    filter: invert(100%);
+    transition: filter 0.3s;
+}
+
+footer img:hover {
+    filter: brightness(0)
+    saturate(100%)
+    invert(65%)
+    sepia(59%)
+    saturate(2437%)
+    hue-rotate(213deg)
+    brightness(86%)
+    contrast(88%)
+}
