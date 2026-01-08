@@ -6,7 +6,7 @@
 
 :root {
     --purple-200: #9a7bd1;
-    --purple-500: #6b36d8;
+    --purple-500: #6b36c8;
     --purple-800: #441f88;
     --black-800: #171717;
     --gray-200: #cccccc;
@@ -23,28 +23,28 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
-h1 {
-    color: var(--white);
-    font-size: 2rem;
+h1 { 
+    color: var(--white); 
+    font-size: 2rem; 
 }
 
-h2 {
-    color: var(--black-800);
-    font-size: 1.5rem;
-    padding: 1rem 0;
-    font-weight: 600;
+h2 { 
+    color: var(--black-800); 
+    font-size: 1.5rem; 
+    padding: 1rem 0; 
+    font-weight: 600; 
 }
 
-h3 {
-    color: var(--white);
-    font-size: 1rem;
-    text-align: center;
+h3 { 
+    color: var(--white); 
+    font-size: 1rem; 
+    text-align: center; 
 }
 
-p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    text-align: justify;
+p { 
+    font-size: 1rem; 
+    line-height: 1.5rem; 
+    text-align: justify; 
 }
 
 section {
@@ -85,13 +85,13 @@ nav a:hover {
     gap: 2rem;
 }
 
-#about img {
-    width: 200px;
-    flex-shrink: 0;
+#about img { 
+    width: 200px; 
+    flex-shrink: 0; 
 }
 
-#about p {
-    flex: 1;
+#about p { 
+    flex: 1; 
 }
 
 #video figure {
@@ -99,9 +99,10 @@ nav a:hover {
     justify-content: center;
 }
 
-footer {
+footer{
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 1rem;
     color: var(--white);
     background-color: var(--purple-500);
@@ -112,7 +113,7 @@ footer {
 footer section {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     gap: 1rem;
     margin: 1rem 0;
@@ -127,14 +128,14 @@ footer img {
 }
 
 footer img:hover {
-    filter: brightness(0)
-    saturate(100%)
-    invert(65%)
-    sepia(59%)
-    saturate(2437%)
-    hue-rotate(213deg)
-    brightness(86%)
-    contrast(88%)
+    filter: brightness(0) 
+            saturate(100%) 
+            invert(65%) 
+            sepia(59%) 
+            saturate(2437%) 
+            hue-rotate(213deg) 
+            brightness(86%) 
+            contrast(88%);
 }
 
 .main_contato {
@@ -160,9 +161,9 @@ form input, textarea {
     font-size: 1rem;
 }
 
-textarea {
-    resize: none;
-    height: 5rem;
+textarea { 
+    resize: none; 
+    height: 5rem; 
 }
 
 form button {
@@ -175,11 +176,34 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
-    background: var(--purple-200);
+form button:hover { 
+    background: var(--purple-500); 
 }
 
-form span {
+form span{
     color: #ff0000;
     font-size: 0.75rem;
+}
+
+.article_mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+}
+
+.article_mapa address {
+    width: 75%;
+}
+
+.article_mapa address p { 
+    font-weight: 600; 
+}
+
+.article_mapa iframe {
+    align-self: center; 
 }
